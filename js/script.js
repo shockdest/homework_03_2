@@ -1,4 +1,4 @@
- var url = 'https://api.mockaroo.com/api/f039e270?count=6&key=d0272180'
+ var url = 'https://api.mockaroo.com/api/0c169030?count=1000&key=ec042d30';
 
  async function fetchData() {
     await fetch(url)
