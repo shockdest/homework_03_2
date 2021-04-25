@@ -1,4 +1,4 @@
- var url = 'https://api.mockaroo.com/api/0c169030?count=1000&key=ec042d30';
+ var url = 'https://api.mockaroo.com/api/0c169030?count=6&key=ec042d30';
 
  async function fetchData() {
     await fetch(url)
@@ -13,7 +13,7 @@
                       <td>${user.location1}, ${user.location2}</td>
                       <td>${user.email}</td>
                       <td>${user.phonenumber}</td>
-                      </tr>
+                    </tr>
                     `;
                 })
                 .join("");
