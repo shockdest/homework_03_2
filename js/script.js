@@ -17,7 +17,7 @@
                     `;
                 })
                 .join("");
-                document.querySelector('#users').insertAdjacentHTML('beforeend', html);
+                document.querySelector('#users tbody').insertAdjacentHTML('beforeend', html);
             })
             .catch(error => {
                 console.log(error)
